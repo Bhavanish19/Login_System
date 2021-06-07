@@ -1,0 +1,30 @@
+.error {
+  display: flex;
+  align-items: center;
+  padding: 10px 25px;
+  border-radius: 30px;
+  background: #ee4a4a;
+  margin-bottom: 1rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.error__message span {
+  font-size: 0.9rem;
+}
+
+.error__clear {
+  margin-left: 1rem;
+}
+
+.error__clear .clear__btn {
+  height: 25px;
+  width: 25px;
+  /* padding: 6px 8px; */
+  border-radius: 100%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  /* color: #fff; */
+  /* font-weight: 600; */
+  background: #ffffff;
+}
